@@ -1,0 +1,26 @@
+BIND File
+;
+
+$TTL 1d
+$ORIGIN wt13.ephec-ti.be.
+@       1D      IN      SOA     ns.wt13.ephec-ti.be. root.wt13.ephec-ti.be. (
+                                1       ; serial
+                                3H      ; refresh
+                                15      ; retry
+                                1w      ; expire
+                                3h)     ;
+
+;NS RECORDS
+        IN      NS      ns.wt1.ephec-ti.be.             ;Utilisé pour définir quels serveurs répondent pour cette zone.
+
+;A Records
+ns      IN      A       54.37.65.49                     ; Cet enregistrement fait correspondre une adresse IP à un nom de machine.
+
+
+;Configuration WEB
+
+web             IN      A       54.37.65.49
+
+www             IN      CNAME   web
+b2b             IN      CNAME   web
+intranet        IN      CNAME   web
