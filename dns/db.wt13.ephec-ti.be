@@ -36,3 +36,4 @@ imap                                    IN      CNAME   mail
 mail._domainkey IN      TXT     ( "v=DKIM1; h=sha256; k=rsa; "
           "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4qNRf1fTBtN2+nfhKL9agKNmS4vkcocSFLrHOYxY59za4yR6jMoqNfOVRHF77jqbn8YVOnLD7TmSYckjg7BCZ7aPuOigGHJx9gO4dHHgWd467cbw0gDiphfQJXi7h5nSMdkfxGeOL970qqh786/4XmC5vq2odEx6Cxoxbx6crZjqQKsRx7FKxB5H9sTHJTC45oypu7N1fMs6Je"
           "X6hJgfOfX1L0+5M2E6ujI9O3cGluGuSivS8xH/9Zyx5uikW1W3UvShmBXnKCvalO5AePWwc3sI6xxNDVUn2ELA5rsC5d8XcwMDbniNvUKieS9UH77W0Bo50Li/FIqSpUkfTcWfawIDAQAB" )  ; ----- DKIM key mail for wt13.ephec-ti.be
+
